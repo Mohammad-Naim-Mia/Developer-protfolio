@@ -3,17 +3,18 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 43px;
 }
 .color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .main-haf{
     width: 50%;
-    padding: 7%;
+    padding: 5%;
 }
 .main-haf img{
     width: 90%;
@@ -29,4 +30,9 @@ section{
 .top-baner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
